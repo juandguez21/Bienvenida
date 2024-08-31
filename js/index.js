@@ -67,10 +67,10 @@ function checkAnswer(answer) {
 
 function setupResources() {
     const resources = [
-        { name: "Guía de Inicio Rápido", url: "#guia-inicio" },
-        { name: "Plataforma de Aprendizaje", url: "#plataforma-aprendizaje" },
-        { name: "Foro de Estudiantes", url: "#foro-estudiantes" },
-        { name: "Calendario del Curso", url: "#calendario-curso" }
+        { name: "Subject Presentation", url: "https://universi799.sharepoint.com/:b:/s/TI31BISDSM-WEBAPPLICATIONS/EX7uNaNt1MtJsRusPm4cmnAB72EaTG86iEiLeXdlwKKenQ?e=HhtuT0" },
+        { name: "Teams", url: "https://teams.microsoft.com/l/team/19%3AREfgIunGWUWZauQrdc3OICLA8ks3q6UfvurMu5Rgx0c1%40thread.tacv2/conversations?groupId=671cc057-c5f2-437c-9dcf-77ec4488a8d8&tenantId=ae30c8b3-eaa6-434d-bdb7-24dfbc19d77a" },
+        { name: "Telegram", url: "https://t.me/+O2K4FF_xoao0YTFh" },
+        { name: "Diagnostic Evaluation", url: "https://www.kahoot.it" }
     ];
 
     const resourceLinksContainer = document.getElementById('resourceLinks');
