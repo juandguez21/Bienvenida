@@ -19,7 +19,7 @@ body {
     overflow: hidden;
 }
 header {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #071952, #088395);
     color: white;
     text-align: center;
     padding: 20px;
@@ -38,11 +38,11 @@ section {
     border-radius: 10px;
 }
 h2 {
-    color: #6e8efb;
+    color: #071952;
     margin-bottom: 15px;
 }
 button, input[type="submit"] {
-    background-color: #6e8efb;
+    background-color: #088395;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -91,7 +91,7 @@ input[type="text"] {
 }
 .resource-link {
     display: block;
-    color: #6e8efb;
+    color: #66c2ff;
     margin-bottom: 10px;
     text-decoration: none;
 }

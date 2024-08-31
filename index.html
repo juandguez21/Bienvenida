@@ -3,36 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenida Personalizada - Desarrollo de Software Multiplataforma</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Bienvenida Personalizada</h1>
-            <p>Desarrollo de Software Multiplataforma</p>
+            <img src="./img/logo.png" height="50px">
+            <h1>Welcome TI31 BIS DSM</h1>
+            <p>Development of Multiplatform Software</p>
         </header>
         <main>
             <section id="intro">
-                <h2>Tu Viaje Comienza Aquí</h2>
-                <p>Estamos emocionados de tenerte en nuestra carrera. Por favor, introduce tu nombre para comenzar.</p>
+                <h2>Your journey starts here!</h2>
+                <p>Hi, I'm Teacher Juan Domínguez and I will be teaching the Web Applications course. I am very excited to be with you this term.</p>
+                <br>
+                <p><b> Please enter your name to get started.</b></p>
                 <form id="nameForm">
-                    <input type="text" id="studentNameInput" placeholder="Tu nombre" required>
-                    <input type="submit" value="¡Comenzar!">
+                    <input type="text" id="studentNameInput" placeholder="Your name" required>
+                    <input type="submit" value="Get started!">
                 </form>
                 <div id="welcomeMessage"></div>
                 <div id="codeSnippet" style="display: none;"></div>
             </section>
             
             <section id="quiz" style="display: none;">
-                <h2>Prueba Tus Conocimientos</h2>
-                <p>Comencemos con un pequeño desafío. ¿Puedes identificar el lenguaje de programación correcto?</p>
+                <h2>Test Your Knowledge</h2>
+                <p>Let's start with a little challenge: Can you identify the correct programming language?</p>
                 <div id="quizContainer"></div>
+                <link href="https://www.kahoot.it">
             </section>
             
             <section id="resources" style="display: none;">
-                <h2>Recursos para Empezar</h2>
-                <p>Aquí tienes algunos enlaces útiles para comenzar tu journey:</p>
+                <h2>Getting Started Resources</h2>
+                <p>Here are some useful links to start your journey:</p>
                 <div id="resourceLinks"></div>
             </section>
         </main>

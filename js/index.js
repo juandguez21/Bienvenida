@@ -8,7 +8,7 @@ document.getElementById('nameForm').addEventListener('submit', function(e) {
 
 function showWelcomeMessage(name) {
     const welcomeMessage = document.getElementById('welcomeMessage');
-    welcomeMessage.textContent = `¡Bienvenido, ${name}! Nos alegra tenerte aquí.`;
+    welcomeMessage.textContent = `Welcome, ${name}! I'm glad to have you here.`;
     
     document.getElementById('codeSnippet').style.display = 'block';
     document.getElementById('quiz').style.display = 'block';
@@ -22,26 +22,27 @@ function showWelcomeMessage(name) {
 function showMessage(name) {
     const codeSnippet = document.getElementById('codeSnippet');
     codeSnippet.innerHTML = `
-function iniciarViaje(estudiante) {
-console.log("¡Bienvenido al mundo del desarrollo multiplataforma, " + estudiante + "!");
+function startTrip(student) {
+console.log("¡Welcome to the world of web application development, " + student + "!");
 
-const exito = (esfuerzo, pasion) => {
-return esfuerzo + pasion;
+const success = (effort, passion) => {
+return effort + passion;
 };
 
-let tuFuturo = exito(tuEsfuerzo, tuPasion);
+let yourFuture = success(yourEffort, yourPassion);
 
-return "Tu futuro en el desarrollo de software es brillante.¡Disfruta el viaje!";
+return "Your future in web application development will be bright.
+¡Enjoy the ride!!";
 }
 
-// Tu aventura comienza aquí
-console</span>.log(iniciarViajeDesarrollo(<span style="color: #f1fa8c;">"${name}"</span>));`;
+// Your adventure starts here
+console</span>.log(startTravelDevelopment(<span style="color: #f1fa8c;">"${name}"</span>));`;
 
 }
 
 function setupQuiz() {
     const quizContainer = document.getElementById('quizContainer');
-    const quizQuestion = "¿Qué lenguaje de programación se utiliza comúnmente para el desarrollo de aplicaciones móviles multiplataforma?";
+    const quizQuestion = "What programming language is commonly used for web application development?";
     const quizOptions = ["Java", "Swift", "JavaScript", "C++"];
     const correctAnswer = "JavaScript";
 
@@ -56,10 +57,10 @@ function setupQuiz() {
 function checkAnswer(answer) {
     const resultDiv = document.getElementById('quizResult');
     if (answer === "JavaScript") {
-        resultDiv.innerHTML = "¡Correcto! JavaScript es ampliamente utilizado en frameworks como React Native para el desarrollo multiplataforma.";
+        resultDiv.innerHTML = "Correct! :) JavaScript is widely used in frameworks such as vue.js and node.js for web application development.";
         resultDiv.style.color = "green";
     } else {
-        resultDiv.innerHTML = `Incorrecto. La respuesta correcta es JavaScript. Es muy utilizado en el desarrollo multiplataforma.`;
+        resultDiv.innerHTML = `Incorrect :(`;
         resultDiv.style.color = "red";
     }
 }
